@@ -10,41 +10,40 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=League+Spartan&family=Lexend+Deca&family=Montserrat&family=Oswald:wght@200;700&family=Raleway:wght@100&family=Red+Hat+Display&family=Roboto&family=Rubik&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
+  
 </head>
 <body>
-  <div class="container">
+  <div class="card">
     <div class="hero">
-      <img src="images/illustration-hero.svg" alt="">
+      <img class="hero-img" src="./images/illustration-hero.svg" alt="" >
     </div>
-    <div class="content">
-      <h1 class="title">Order Summary</h1>
-      <p class="subtitle">You can now listen to millions of songs, audiobooks, and podcasts on any 
-        device anywhere you like!</p>
+    <div class="hero-section">
+      <h1 class="hero-title">Order Summary</h1>
+      <p class="hero-text">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+    </div>
     <div class="plan">
-     <div class="box-left">
-       <img src="images/icon-music.svg" alt="music note">
-       <div>
-          <h2>Annual Plan</h2>
-          <p>$59.99/year</p>
-        </div>
+      <div class="music-note">
+        <img src="./images/icon-music.svg" alt="music note">
+      </div>
+      <div class="plan-price">
+        <h2>Annual Plan</h2>
+        <p>$59.99/year</p>
+      </div>
+      <div class="change-btn">
+        <a href="#">Change</a>
+      </div>
+    </div>
+      <div class="payment-section">
+        <button class="payment-btn">Proceed to Payment</button>
+        <a class="cancel-btn" href="#">Cancel Order</a>
       </div> 
-      <a href="#">Change</a>
-    </div>  
-    <button class="button">Proceed to Payment</button>
-    <div>
-     <a href="#" class="cancel-btn">Cancel Order</a>
-    </div>
-    </div>
-  </div>  
-    
-
-    
+  </div>
 </body>
 </html>
